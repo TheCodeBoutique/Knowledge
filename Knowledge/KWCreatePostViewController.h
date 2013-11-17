@@ -16,5 +16,9 @@
 @property (strong, nonatomic) IBOutlet UIView *titleBar;
 @property (strong, nonatomic) IBOutlet UIView *messageBar;
 @property (strong, nonatomic) IBOutlet UIView *actionItemBar;
+@property (strong, nonatomic) IBOutlet UIImageView *postImage;
+@property (strong, nonatomic) IBOutlet UIView *barrier;
 
+- (IBAction)cameraTapped:(id)sender;
+- (void)uploadImage:(NSData *)imageData;
 @end
